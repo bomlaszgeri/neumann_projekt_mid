@@ -1,0 +1,25 @@
+<section class="form__section">
+        <div class="container form__section-container">
+            <h2>Felhasználó hozzáadása</h2>
+            <div class="alert__message error">
+                <p>A művelet sikertelen!</p>
+            </div>
+            <form action="" enctype="multipart/form-data">
+                <input type="text" placeholder="Vezetéknév">
+                <input type="text" placeholder="Keresztnév">
+                <input type="text" placeholder="Felhasználónév">
+                <input type="email" placeholder="E-Mail">
+                <input type="password" placeholder="Jelszó">
+                <input type="password" placeholder="Jelszó megerősítése">
+                <select>
+                    <option value="0">Felhasználó</option>
+                    <option value="1">Adminisztrátor</option>
+                </select>
+                    <div class="form__control">
+                        <label for="avatar">Avatar</label>
+                        <input type="file" id="avatar">
+                    </div>
+                <button type="submit" class="btn">Hozzáadás</button>
+            </form>
+        </div>
+    </section>

@@ -1,0 +1,79 @@
+<section class="dashboard">
+    <div class="container dashboard__container">
+        <button id="show__sidebar-btn" class="sidebar__toggle"><i class="uil uil-angle-right-b"></i></button>
+        <button id="hide__sidebar-btn" class="sidebar__toggle"><i class="uil uil-angle-left-b"></i></button>
+        <aside>
+            <ul>
+                <li>
+                    <a href="add-post.php"><i class="uil uil-pen"></i>
+                        <h5>Poszt hozzáadása</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.php"><i class="uil uil-postcard"></i>
+                        <h5>Posztok kezelése</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="add-user.php"><i class="uil uil-user-plus"></i>
+                        <h5>Felhasználó hozzáadása</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="manage-users.php" class="active"><i class="uil uil-users-alt"></i>
+                        <h5>Felhasználók kezelése</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="add-category.php"><i class="uil uil-edit"></i>
+                        <h5>Kategória hozzáadása</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="manage-categories.php"><i class="uil uil-list-ul"></i>
+                        <h5>Kategóriák kezelése</h5>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <main>
+                <h2>Felhasználók kezelése</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Név</th>
+                            <th>Felhasználónév</th>
+                            <th>Szerkesztés</th>
+                            <th>Törlés</th>
+                            <th>Adminisztrátor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Bakó Béla</td>
+                            <td>BakBel11</td>
+                            <td><a href="edit-user.php" class="btn sm">Szerkesztés</a></td>
+                            <td><a href="delete-category.php" class="btn sm danger">Törlés</a></td>
+                            <td>Igen</td>
+                        </tr>
+                        <tr>
+                            <td>Kiss Vilmos</td>
+                            <td>KissVili</td>
+                            <td><a href="edit-user.php" class="btn sm">Szerkesztés</a></td>
+                            <td><a href="delete-category.php" class="btn sm danger">Törlés</a></td>
+                            <td>Nem</td>
+                        </tr>
+                        <tr>
+                            <td>Füty Imre</td>
+                            <td>Fütyi</td>
+                            <td><a href="edit-user.php" class="btn sm">Szerkesztés</a></td>
+                            <td><a href="delete-category.php" class="btn sm danger">Törlés</a></td>
+                            <td>Nem</td>
+                        </tr>
+
+                        
+                    </tbody>
+                </table>
+        </main>
+    </div>
+</section>
